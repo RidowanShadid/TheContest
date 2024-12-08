@@ -9,41 +9,42 @@
     <!-- Score Display -->
 
     <!-- Buttons -->
+
     <TextView
         android:id="@+id/tvScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="0"
+
         android:textColor="@android:color/black"
         android:textSize="48sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
         android:gravity="center"
-        android:layout_marginTop="16dp">
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnScore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/score_button"
-            android:layout_margin="8dp" />
+            android:layout_margin="8dp"
+            android:text="@string/score_button" />
 
         <Button
             android:id="@+id/btnSteal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/steal_button"
-            android:layout_margin="8dp" />
+            android:layout_margin="8dp"
+            android:text="@string/steal_button" />
 
         <Button
             android:id="@+id/btnReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/reset_button"
-            android:layout_margin="8dp" />
+            android:layout_margin="8dp"
+            android:text="@string/reset_button" />
     </LinearLayout>
 </LinearLayout>
